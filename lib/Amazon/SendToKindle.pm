@@ -11,7 +11,7 @@ use warnings;
 
 require Exporter;
 our @ISA = qw(Exporter);
-our $VERSION = "0.1.1";
+our $VERSION = "0.2";
 our %EXPORT_TAGS = ('all' => [qw(new send)]);
 our @EXPORT_OK = (@{ $EXPORT_TAGS{'all'} });
 
