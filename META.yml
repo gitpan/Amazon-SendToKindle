@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Amazon-SendToKindle
-version:            0.1
+version:            0.1.1
 abstract:           Send files to Amazon's personal document service.
 author:
     - Nathan Campos <nathanpc@dreamintech.net>

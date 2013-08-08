@@ -11,7 +11,7 @@ use warnings;
 
 require Exporter;
 our @ISA = qw(Exporter);
-our $VERSION = "0.1";
+our $VERSION = "0.1.1";
 our %EXPORT_TAGS = ('all' => [qw(new send)]);
 our @EXPORT_OK = (@{ $EXPORT_TAGS{'all'} });
 
@@ -91,7 +91,7 @@ Amazon::SendToKindle - Send files to Amazon's personal document service.
 
 =head1 DESCRIPTION
 
-This is my first module for the Perl community. It was created to be used in one of my projects called <a href="https://github.com/nathanpc/whisper">Whisper</a>.
+This is my first module for the Perl community. It was created to be used in one of my projects called Whisper: https://github.com/nathanpc/whisper
 
 It's a extremely easy and straight forward way to send documents to Amazon's Kindle Personal Documents Service (aka "Send to Kindle").
 
